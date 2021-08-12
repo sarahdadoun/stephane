@@ -1,0 +1,45 @@
+html{
+    margin: 0;
+    background-color: #414a59;
+}
+
+body{
+    display: flex;
+}
+
+/* -------- LEFT --------- */
+
+#left{
+    width: 20%;
+    padding: 20px;
+    margin: 10px;
+
+    background-color: white;
+}
+
+#right{
+    width: 60%;
+    margin: 10px;
+}
+
+/* -------- RIGHT --------- */
+
+#title-right{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: white;
+    padding-left: 20px;
+}
+
+#please-say{
+}
+
+#please-say #title{
+    height: 40px;
+    background-color: #465c85;
+}
+
+#please-say #content{
+    padding: 20px;
+    background-color: white;
+}
