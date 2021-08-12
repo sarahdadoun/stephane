@@ -5,24 +5,39 @@ html{
 
 body{
     display: flex;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* -------- LEFT --------- */
 
 #left{
     width: 20%;
-    padding: 20px;
     margin: 10px;
+}
 
+#left #title{
+    height: 40px;
+    background-color: #465c85;
+    color: white;
+}
+
+#left #content{
+    padding: 20px;
     background-color: white;
 }
+
+ul li{
+    list-style: none;
+    color: blue;
+    font-weight: 600;
+}
+
+/* -------- RIGHT --------- */
 
 #right{
     width: 60%;
     margin: 10px;
 }
-
-/* -------- RIGHT --------- */
 
 #title-right{
     display: flex;
@@ -31,11 +46,9 @@ body{
     padding-left: 20px;
 }
 
-#please-say{
-}
-
 #please-say #title{
     height: 40px;
+    color: white;
     background-color: #465c85;
 }
 
