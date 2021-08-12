@@ -15,10 +15,21 @@ body{
     margin: 10px;
 }
 
+#left #title img{
+    height: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 #left #title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     height: 40px;
+
     background-color: #465c85;
     color: white;
+    font-weight: 600;
 }
 
 #left #content{
@@ -46,13 +57,65 @@ ul li{
     padding-left: 20px;
 }
 
+#grey-title{
+    color: grey;
+    padding-right: 10px;
+}
+
+#right #content{
+    border-radius: 0px 0px 5px 5px;
+}
+
 #please-say #title{
     height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+
     color: white;
+    font-weight: 600;
     background-color: #465c85;
 }
 
+#please-say #title img{
+    width: 25px;
+    padding-right: 10px;
+}
+
 #please-say #content{
-    padding: 20px;
+    
     background-color: white;
+}
+
+#please-say #content div:first-child{
+    padding: 10px;
+}
+
+#content div:nth-child(2){
+    background-color: #e1e2e2;
+    padding: 20px;
+}
+
+/* ------ BUTTONS ------- */
+
+#please-say #content div:nth-child(3){
+    padding: 10px;
+}
+
+button{
+    padding: 10px;
+    font-size: medium;
+    font-weight: 600;
+    box-shadow: 0px 0px 3px;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-o{
+    background-color: #f7ca5a;
+}
+
+#btn-g{
+    background: grey;
 }
